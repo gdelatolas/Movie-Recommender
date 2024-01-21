@@ -3,6 +3,8 @@ The recommender system suggests movies based on user-selected preferences.
 The underlying recommendation engine relies on a pre-trained model that computes the similarity between movies using their tags. 
 The tags are processed using a CountVectorizer and cosine similarity to identify similar movies.
 
+Run the app.py file and access the UI with command:  streamlit run app.py 
+
 Here's a breakdown of the key components and steps:
 
 1.Data Loading:
@@ -22,11 +24,3 @@ When the user clicks the "Show Recommendations" button, the system identifies th
 
 6.Displaying Recommendations:
 The recommended movies and their posters are displayed in a responsive layout using Streamlit's st.columns functionality. Each column contains the title and poster of a recommended movie.
-
-7.Dependencies:
-The project relies on various libraries, including Streamlit for the UI, pickle for data loading, and requests for API calls. 
-The recommendation engine involves the use of scikit-learn for text vectorization (CountVectorizer) and cosine similarity computation.
-
-8.Data Processing:
-The project assumes the existence of a DataFrame (new_data) containing movie tags. 
-The tags are vectorized using CountVectorizer, and cosine similarity is calculated to create the movie similarity matrix (similarity.pkl).
