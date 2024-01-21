@@ -5,6 +5,8 @@ The tags are processed using a CountVectorizer and cosine similarity to identify
 
 Run the app.py file and access the UI with command:  streamlit run app.py 
 
+This is how the UI looks liks:
+
 <img width="430" alt="image" src="https://github.com/gdelatolas/Movie-Recommender/assets/62467773/8b919ee6-db6c-4b0c-9781-67148146d6b1">
 
 
